@@ -30,6 +30,7 @@ section {
 
 .container {
     padding: 50px 0;
+    width: 100^;
 }
 
 .row {
@@ -283,3 +284,33 @@ FOOTER
 
 */
 
+footer {
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo--img {
+    width: 120px;
+    height: 120px;
+}
+
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 28px 0;
+}
+
+.footer__social--link,
+.footer__copyright {
+    color: white;
+}
